@@ -214,7 +214,7 @@ These can be challenging problem sets if you aren't too familiar with proofs or 
 	1. Prove that the sum of two even numbers is always even. (Hint: an even number can be expressed in the form $2n$.)
    
 	2. Prove that the square of an odd number is always odd. (Hint: an odd number can be expressed in the form $2n + 1$.)
-4. $\bigcup A$ denotes the union of ALL sets inside $A$. So ex. if A = \{\{5,4\},\{4,3\}\} then $\bigcup$ A = \{5,4\} $\cup$ \{4,3\} = \{5,4,3\}. Prove that every member of $\bigcup A$ is a subset of $A$. (Hint: use the technique where you choose an arbitrary variable and show that the arbitrary variable belongs to a set, hence "universally" proving that all members belong to a set.)
+4. $\bigcup A$ denotes the union of ALL sets inside $A$. So ex. if A = \{\{5,4\},\{4,3\}\} then $\bigcup$ A = \{5,4\} $\cup$ \{4,3\} = \{5,4,3\}. Prove that every member of A is a subset of $\bigcup A$. (Hint: use the technique where you choose an arbitrary variable and show that the arbitrary variable belongs to a set, hence "universally" proving that all members belong to a set.)
 5. Using proof by contradiction, prove that if $x \in \mathbb{Q}$, there can be no smallest $x$.
 6. Using proof by contrapositive, prove that if a number is divisible by $2$, a number is divisible by $4$. 
 7. Using proof by induction, prove that for all $n \in \mathbb{N}$, $2^{n} > n$. Assume that the natural numbers start with $1$. (Hint: after you construct an equality for the inductive hypothesis, try to prove that $2k \ge k+1$  for $k \ge 1$, then use that fact to continue on the proof.)
