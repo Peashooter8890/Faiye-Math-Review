@@ -230,6 +230,8 @@ Proof. Suppose that $x$ is the minimal member of $\mathbb{Q}$. Now take $\frac{x
 
 5. Using proof by contrapositive, prove that if a number is divisible by $4$, a number is divisible by $2$.
 
+$P \implies Q$ becomes $\neg Q \implies \neg P$. 
+
 
 Proof. Suppose the contrapositive; if a number is not divisible by 2, then it is not divisible by 4. Assume that a number is not divisible by 2. Then by definition, such a number is odd and can be written in the form $2n+1$. However, since a number divisible by 4 must be written in the form $4n$, $2n+1$ is not divisible by $4$. Hence the proof is complete.
 
