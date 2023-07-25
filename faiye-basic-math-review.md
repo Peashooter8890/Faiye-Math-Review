@@ -228,6 +228,11 @@ Proof. We define the self-union of $A$ with the union axiom. By definition, $\fo
 Proof. Suppose that $x$ is the minimal member of $\mathbb{Q}$. Now take $\frac{x}{2}$. Since $x$ is positive, $\frac{x}{2} < x$. But surely this contradicts our argument that $x$ is the minimal member of $\mathbb{Q}$. Therefore, there can be no minimal positive element of $\mathbb{Q}$. 
 
 
-6. Using proof by contrapositive, prove that if a number is divisible by $4$, a number is divisible by $2$. 
+5. Using proof by contrapositive, prove that if a number is divisible by $4$, a number is divisible by $2$.
+
+
+Proof. Suppose the contrapositive; if a number is not divisible by 2, then it is not divisible by 4. Assume that a number is not divisible by 2. Then by definition, such a number is odd and can be written in the form $2n+1$. However, since a number divisible by 4 must be written in the form $4n$, $2n+1$ is not divisible by $4$. Hence the proof is complete.
+
+
 7. Using proof by induction, prove that for all $n \in \mathbb{N}$, $2^{n} > n$. Assume that the natural numbers start with $1$. (Hint: after you construct an equality for the inductive hypothesis, try to prove that $2k \ge k+1$  for $k \ge 1$, then use that fact to continue on the proof.)
 8. Prove that there are infinitely many prime numbers. This is a hard problem, so we will be giving an extensive starting point. We will be attempting proof by contradiction, hence first assuming that there are finitely many prime numbers. Suppose that there are finitely many prime numbers, starting from $p_1$ and going until $p_n$ where $n$ is a finite integer. Suppose that $m$ is a product of all prime numbers plus 1, aka $m = p_1p_2p_3 ... p_{n}+ 1$). A prime number can only be divisible by itself or 1 - so a prime number can't be divisible by another prime number that's not 1 or itself. Observe how if you try to divide $m$ by a prime number, there is always a remainder of 1. Use this fact to continue the proof and finish it, exploring the construct $m$. (The goal is to come to a contradiction that there are finitely many prime numbers.)
