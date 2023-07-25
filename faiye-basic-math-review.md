@@ -216,7 +216,9 @@ These can be challenging problem sets if you aren't too familiar with proofs or 
 	2. Prove that the square of an odd number is always odd. (Hint: an odd number can be expressed in the form $2n + 1$.)
 
 EXPLAIN ALL OF THE FOLLOWING
+
 3. $\bigcup A$ denotes the union of ALL sets inside $A$. So ex. if A = \{\{5,4\},\{4,3\}\} then $\bigcup$ A = \{5,4\} $\cup$ \{4,3\} = \{5,4,3\}. Prove that every member of A is a subset of $\bigcup A$. (Hint: use the technique where you choose an arbitrary variable and show that the arbitrary variable belongs to a set, hence "universally" proving that all members belong to a set.)
+
 
 Proof. We define the self-union of $A$ with the union axiom. By definition, $\forall x \in \bigcup A$, $x \in a$ given that $a \in A$. Since $x \in a \implies x \in \bigcup A$, $a \subseteq \bigcup A$. 
 
