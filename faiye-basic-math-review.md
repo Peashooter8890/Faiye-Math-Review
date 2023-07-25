@@ -204,11 +204,16 @@ Proof. Suppose $n = 0$, then $\frac{0(0+1)}{2}= 0$ so the statement holds true. 
 
 These can be challenging problem sets if you aren't too familiar with proofs or if it's been a while. Feel free to ask for help and try your best. 
 
-1. Given that $n \in \mathbb{Z}$, 
+1. Explain in your own words why the example proofs from all of the techniques work.
+	1. Direct proof example
+	2. Contrapositive proof example
+	3. Contradiction proof example
+   	4. Induction proof example
+2. Given that $n \in \mathbb{Z}$, 
 		1. Prove that the sum of two even numbers is always even. (Hint: an even number can be expressed in the form $2n$.)
 		2. Prove that the square of an odd number is always odd. (Hint: an odd number can be expressed in the form $2n + 1$.)
-2. $\bigcup A$ denotes the union of ALL sets inside $A$. So ex. if A = \{\{5,4\},\{4,3\}\} then $\bigcup$ A = \{5,4\} $\cup$ \{4,3\} = \{5,4,3\}. Prove that every member of $\bigcup A$ is a subset of $A$. (Hint: use the technique where you choose an arbitrary variable and show that the arbitrary variable belongs to a set, hence "universally" proving that all members belong to a set.)
-3. Using proof by contradiction, prove that if $x \in \mathbb{Q}$, there can be no smallest $x$.
-4. Using proof by contrapositive, prove that if a number is divisible by $2$, a number is divisible by $4$. 
-5. Using proof by induction, prove that for all $n \in \mathbb{N}$, $2^{n} > n$. Assume that the natural numbers start with $1$. (Hint: after you construct an equality for the inductive hypothesis, try to prove that $2k \ge k+1$  for $k \ge 1$, then use that fact to continue on the proof.)
-6. Prove that there are infinitely many prime numbers. This is a hard problem, so we will be giving an extensive starting point. We will be attempting proof by contradiction, hence first assuming that there are finitely many prime numbers. Suppose that there are infinitely many prime numbers, starting from $p1$ and going until $pn$ where $n$ is a finite integer. Suppose that $m$ is a product of all prime numbers plus 1, aka $m = p1p2p3 ... p_{n}+ 1$). A prime number can only be divisible by itself or 1 - so a prime number can't be divisible by another prime number that's not 1 or itself. Observe how if you try to divide $m$ by a prime number, there is always a remainder of 1. Use this fact to continue the proof and finish it, exploring the construct $m$. (The goal is to come to a contradiction that there are finitely many prime numbers.)
+3. $\bigcup A$ denotes the union of ALL sets inside $A$. So ex. if A = \{\{5,4\},\{4,3\}\} then $\bigcup$ A = \{5,4\} $\cup$ \{4,3\} = \{5,4,3\}. Prove that every member of $\bigcup A$ is a subset of $A$. (Hint: use the technique where you choose an arbitrary variable and show that the arbitrary variable belongs to a set, hence "universally" proving that all members belong to a set.)
+4. Using proof by contradiction, prove that if $x \in \mathbb{Q}$, there can be no smallest $x$.
+5. Using proof by contrapositive, prove that if a number is divisible by $2$, a number is divisible by $4$. 
+6. Using proof by induction, prove that for all $n \in \mathbb{N}$, $2^{n} > n$. Assume that the natural numbers start with $1$. (Hint: after you construct an equality for the inductive hypothesis, try to prove that $2k \ge k+1$  for $k \ge 1$, then use that fact to continue on the proof.)
+7. Prove that there are infinitely many prime numbers. This is a hard problem, so we will be giving an extensive starting point. We will be attempting proof by contradiction, hence first assuming that there are finitely many prime numbers. Suppose that there are infinitely many prime numbers, starting from $p1$ and going until $pn$ where $n$ is a finite integer. Suppose that $m$ is a product of all prime numbers plus 1, aka $m = p1p2p3 ... p_{n}+ 1$). A prime number can only be divisible by itself or 1 - so a prime number can't be divisible by another prime number that's not 1 or itself. Observe how if you try to divide $m$ by a prime number, there is always a remainder of 1. Use this fact to continue the proof and finish it, exploring the construct $m$. (The goal is to come to a contradiction that there are finitely many prime numbers.)
