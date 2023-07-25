@@ -196,7 +196,7 @@ We are choosing an arbitrary variable here called $a$. If an arbitrary variable 
 
 Now, back to proof by induction. The following is an example.
 
-Prove that the sum of the first $n$ natural numbers is $\frac{n(n+1)}{2}$. Recall that this is the famous formula for $\sum_{n=0}^{\infty}n = \frac{n(n+1)}{2}$. The $\sum$ sign is a "for loop" from programming, in this case it starts with $n=0$ and moves up infinitely in intervals of 1. 
+Prove that the sum of the first $n$ natural numbers is $\frac{n(n+1)}{2}$. Recall that this is the famous formula for $$\sum_{n=0}^{\infty}n = \frac{n(n+1)}{2}$$. The $\sum$ sign is a "for loop" from programming, in this case it starts with $n=0$ and moves up infinitely in intervals of 1. 
 
 Proof. Suppose $n = 0$, then $\frac{0(0+1)}{2}= 0$ so the statement holds true. Since it is debatable whether $0 \in \mathbb{N}$, start with $n=1$ also. $\frac{1(1+1)}{2} = 1$ so the statement holds. Now assume the inductive hypothesis. Substitute $n+1$ into n and we get $\frac{(n+1)((n+1) + 1)}{2} = \frac{(n+1)(n+2)}{2}$. Now, to show that $\frac{n(n+1)}{2} + (n+1) = \frac{(n+1)(n+2)}{2}$. We first algebraically convert $(n+1)$ into $\frac{2(n+1)}{2}$ and merge it with $\frac{n(n+1)}{2}$, giving us $\frac{n(n+1) + 2(n+1)}{2}$. The two pairs of $(n+1)$ can then algebraically be factored into $\frac{(n+1)(n+2)}{2}$, which completes the proof. 
 
