@@ -119,7 +119,7 @@ Again, depending on the context, these might be better expressed in english. But
 1. Re-express $\neg (P \land Q)$ using the distributive property and explain why the distributive property works in this context. (Recall that the distributive property turns $5(4+5)$ into $5\*4 + 5\*5 = 45$.)
 2. Explain why $(P \land Q) \land K$ is the same as $P \land (Q \land K)$. 
 3. Given the expression $(\neg P \lor P) \land ((Q \lor P) \land (\neg P \lor \neg Q))$, considering that the "or" sign is inclusive (both can be true), explain why both $Q$ and $P$ cannot be true or false at the same time.
-4. Consider the statement "$\forall n \in \mathbb{N}$, given that $n \ne 0$, $-n < 0$". 
+4. Consider the statement " $\forall n \in \mathbb{N}$, given that $n \ne 0$, $-n < 0$". 
 	1. Explain why the statement is true or false.
 	2. Is it true or false for $\forall z \in \mathbb{Z}$? Explain your reasoning.
 	3. Is it true or false for $\exists r \in \mathbb{R}$?
