@@ -97,21 +97,26 @@ Note that both irrational and imaginary sets can use the same symbol depending o
 ### Notation
 
 $\land$ is the sign that says "and"
+
 $\lor$ is the sign that says "or" (or is often inclusive, meaning it can either be one, the other, or both)
+
 $\neg$ is the sign that says "not"
 
 The three statements above are good for pure logic, but in general using english is better. For the "not" symbol, a more common example will be $\ne, \not\subset,$ etc. The main reason we would need to know the three above symbols would be when we are studying pure mathematical logic, but since logic is the foundations of math, it's good to know.
 
 $\implies$ is the sign that says "implies"
+
 $\iff$ is like "implies", except that both sides of the expression imply each other. 
+
 $\exists$ means "there exists"
+
 $\forall$ means "for all"
 
 Again, depending on the context, these might be better expressed in english. But again, it's still good to know them.
 
 ### Problem Sets
 
-1. Re-express $\neg (P \land Q)$ using the distributive property and explain why the distributive property works in this context. (Recall that the distributive property turns $5(4+5)$ into $5*4 + 5*5 = 45$.)
+1. Re-express $\neg (P \land Q)$ using the distributive property and explain why the distributive property works in this context. (Recall that the distributive property turns $5(4+5)$ into $5\*4 + 5|*5 = 45$.)
 2. Explain why $(P \land Q) \land K$ is the same as $P \land (Q \land K)$. 
 3. Given the expression $(\neg P \lor P) \land ((Q \lor P) \land (\neg P \lor \neg Q))$, considering that the "or" sign is inclusive (both can be true), explain why both $Q$ and $P$ cannot be true or false at the same time.
 4. Consider the statement "$\forall n \in \mathbb{N}, \hspace{0.15cm}\text{given that}\hspace{0.15cm} n \ne 0, -n < 0$". 
