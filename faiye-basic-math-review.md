@@ -225,6 +225,8 @@ Proof. We define the self-union of $A$ with the union axiom. By definition, $\fo
 4. Using proof by contradiction, prove that if $x \in \mathbb{Q}$ and x is positive, there can be no smallest $x$.
 
 
+Proof. Suppose that $x$ is the minimal member of $\mathbb{Q}$. Now take $\frac{x}{2}$. Since $x$ is positive, $\frac{x}{2} < x$. But surely this contradicts our argument that $x$ is the minimal member of $\mathbb{Q}$. Therefore, there can be no minimal positive element of $\mathbb{Q}$. 
+
 
 6. Using proof by contrapositive, prove that if a number is divisible by $4$, a number is divisible by $2$. 
 7. Using proof by induction, prove that for all $n \in \mathbb{N}$, $2^{n} > n$. Assume that the natural numbers start with $1$. (Hint: after you construct an equality for the inductive hypothesis, try to prove that $2k \ge k+1$  for $k \ge 1$, then use that fact to continue on the proof.)
