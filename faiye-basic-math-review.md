@@ -127,7 +127,7 @@ Again, depending on the context, these might be better expressed in english. But
 	1. Does $x = 5 \implies x \in \mathbb{Z}$? 
 	2. Does $x=5 \iff x \in \mathbb{Z}$? 
 6. Given that $4 < x < 5$, show that $!\exists x \in \mathbb{Z}$ ($!\exists$ is the preferred way of saying $\neg \exists$, meaning "does not exist")
-7. Suppose that there exists two sets $A$ and $B$ and $A \subseteq B$. Explain why the statement "$\forall a \in A (a \in B)$" is true.
+7. Suppose that there exists two sets $A$ and $B$ and $A \subseteq B$. Explain why the statement " $\forall a \in A (a \in B)$ " is true.
 
 # Basic Mathematical Techniques
 
