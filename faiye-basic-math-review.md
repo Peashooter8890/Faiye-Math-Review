@@ -215,7 +215,7 @@ These can be challenging problem sets if you aren't too familiar with proofs or 
    
 	2. Prove that the square of an odd number is always odd. (Hint: an odd number can be expressed in the form $2n + 1$.)
 
-EXPLAIN ALL OF THE FOLLOWING
+FOR THESE ONES, I WROTE MY SOLUTIONS SO IT'S MORE OF A STUDY THE SOLUTION TYPE OF THING. EITHER EXPLAIN ALL OF THE FOLLOWING IN YOUR OWN WORDS, OR IF YOU ARE FEELING AMBITIOUS, TRY TO ATTEMPT THEM ON YOUR OWN - BUT NOTE THAT THE "Proof." PART CONTAINS THE ANSWER.
 
 3. $\bigcup A$ denotes the union of ALL sets inside $A$. So ex. if A = \{\{5,4\},\{4,3\}\} then $\bigcup$ A = \{5,4\} $\cup$ \{4,3\} = \{5,4,3\}. Prove that every member of A is a subset of $\bigcup A$. (Hint: use the technique where you choose an arbitrary variable and show that the arbitrary variable belongs to a set, hence "universally" proving that all members belong to a set.)
 
